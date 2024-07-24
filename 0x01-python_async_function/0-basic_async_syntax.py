@@ -1,4 +1,4 @@
-#!/usr/bin/ev python3
+#!/usr/bin/env python3
 """ The basics of async """
 from typing import Union
 from random import randrange
