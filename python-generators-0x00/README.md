@@ -28,7 +28,7 @@ By leveraging Python’s `yield` keyword, you will implement generators that all
 
 ## 📂 Tasks
 
-### [Task 0 — Database Setup & Seeding](./python-generators-0x00/0-seed.py)
+### [Task 0 — Database Setup & Seeding](./0-seed.py)
 **Goal:** Connect to MySQL server and create/connect database.  
 
 **Key functions:**
@@ -42,7 +42,7 @@ def insert_data(connection, data) → load records from user_data.csv
 
 ---
 
-### [Task 1 — Streaming Rows One by One](./python-generators-0x00/0-stream_users.py)
+### [Task 1 — Streaming Rows One by One](./0-stream_users.py)
 **Goal:** Stream rows from an SQL database one at a time.  
 
 **Key function:**
@@ -52,7 +52,7 @@ def stream_users() → Fetch rows one by one from the `user_data` table
 
 ---
 
-### [Task 2 — Batch Processing Large Data](./python-generators-0x00/1-batch_processing.py)
+### [Task 2 — Batch Processing Large Data](./1-batch_processing.py)
 **Goal:** Create a generator to fetch and process data in batches.  
 
 **Requirements:**
@@ -69,7 +69,7 @@ def stream_users() → Fetch rows one by one from the `user_data` table
 
 ---
 
-### [Task 3 — Lazy Loading Paginated Data](./python-generators-0x00/2-lazy_paginate.py)
+### [Task 3 — Lazy Loading Paginated Data](./2-lazy_paginate.py)
 **Goal:** Simulate fetching paginated data lazily.  
 
 **Requirements:**
@@ -87,7 +87,7 @@ for page in lazy_paginate(100):
 
 ---
 
-### [Task 4 — Memory-Efficient Aggregation](./python-generators-0x00/4-stream_ages.py)
+### [Task 4 — Memory-Efficient Aggregation](./4-stream_ages.py)
 **Goal:** Use a generator to compute aggregates without loading everything into memory.  
 
 **Requirements:**
