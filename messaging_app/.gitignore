@@ -1,0 +1,68 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.py.class
+*.so
+
+# Django specific
+*.log
+*.pot
+*.pyc
+db.sqlite3
+media/
+staticfiles/
+local_settings.py
+
+# Environment variables & secrets
+.env
+*.env
+*.secret
+
+# Virtual environment
+venv/
+ENV/
+env/
+.venv/
+
+# VSCode / IDE
+.vscode/
+.idea/
+*.swp
+*~
+
+# Migrations (optional: keep if you want to version control them)
+# **Be careful**: migrations are usually kept in git unless you're experimenting.
+# */migrations/
+# !*/migrations/__init__.py
+
+# Cache & temp
+*.tmp
+*.bak
+*.log
+*.pid
+*.seed
+*.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.hypothesis/
+
+# Testing
+htmlcov/
+.tox/
+.pytest_cache/
+.junit/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Docker
+*.pid
+*.sock
+*.log
+*.tar
